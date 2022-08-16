@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tesst_1,Chrome 104.0.5112.79,,,2022-08-16 15:32:45,2022-08-16 15:32:57,11.547s,PASSED
+,,,,,,,
+Test Cases/VST_text_recoginzation,Chrome 104.0.5112.79,,,2022-08-16 15:32:46,2022-08-16 15:32:57,10.935s,PASSED
+random = new java.util.Random(),Chrome 104.0.5112.79,,,2022-08-16 15:32:46,2022-08-16 15:32:46,0.006s,PASSED
+lenghText = random.nextInt(100),Chrome 104.0.5112.79,,,2022-08-16 15:32:46,2022-08-16 15:32:46,0.002s,PASSED
+"openBrowser(""https://www.blindtextgenerator.com/lorem-ipsum"")",Chrome 104.0.5112.79,,,2022-08-16 15:32:46,2022-08-16 15:32:52,5.848s,PASSED
+"takeScreenshotAsCheckpoint(""base_line"", STOP_ON_FAILURE)",Chrome 104.0.5112.79,,,2022-08-16 15:32:52,2022-08-16 15:32:54,1.802s,PASSED
+"clearText(findTestObject(""Object Repository/Page_Dummy_Text/input_Number_idInputWords""))",Chrome 104.0.5112.79,,,2022-08-16 15:32:54,2022-08-16 15:32:55,0.519s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Dummy_Text/input_Number_idInputWords""), lenghText.toString())",Chrome 104.0.5112.79,,,2022-08-16 15:32:55,2022-08-16 15:32:55,0.486s,PASSED
+"takeScreenshotAsCheckpoint(""gen_Text"", STOP_ON_FAILURE)",Chrome 104.0.5112.79,,,2022-08-16 15:32:55,2022-08-16 15:32:56,1.256s,PASSED
+closeBrowser(),Chrome 104.0.5112.79,,,2022-08-16 15:32:56,2022-08-16 15:32:57,0.210s,PASSED

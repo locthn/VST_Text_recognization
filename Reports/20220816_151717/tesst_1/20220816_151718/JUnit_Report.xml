@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tesst_1" time="10.453" tests="1" failures="0" errors="0">
+   <testsuite name="tesst_1" tests="1" failures="0" errors="0" time="10.453" skipped="0" timestamp="2022-08-16 15:17:30" hostname="loc.tnguyen - 10.10.33.104" id="Test Suites/tesst_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/loc.tnguyen/Desktop/VST_example/VST_Text_recognization/Reports/20220816_151717/tesst_1/20220816_151718"/>
+         <property name="logFiles" value="/Users/loc.tnguyen/Desktop/VST_example/VST_Text_recognization/Reports/20220816_151717/tesst_1/20220816_151718/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-base_line.png, keyes/keyes-gen_Text.png"/>
+         <property name="hostName" value="loc.tnguyen - 10.10.33.104"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.79"/>
+         <property name="hostAddress" value="10.10.33.104"/>
+         <property name="sessionId" value="540b792ed2c14b06b106f82aed7b7fcf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/VST_text_recoginzation" time="10.147" classname="Test Cases/VST_text_recoginzation" status="PASSED">
+         <system-out><![CDATA[2022-08-16 15:17:30 - [TEST_CASE][PASSED] - Test Cases/VST_text_recoginzation: Test Cases/VST_text_recoginzation
+
+2022-08-16 15:17:31 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+2022-08-16 15:17:31 - [TEST_STEP][PASSED] - lenghText = random.nextInt(100): null
+
+2022-08-16 15:17:31 - [TEST_STEP][PASSED] - openBrowser("https://www.blindtextgenerator.com/lorem-ipsum"): Browser is opened with url: 'https://www.blindtextgenerator.com/lorem-ipsum'
+
+2022-08-16 15:17:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-16 15:17:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-16 15:17:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.blindtextgenerator.com/lorem-ipsum'
+
+2022-08-16 15:17:36 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("base_line", STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-08-16 15:17:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-08-16 15:17:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-base_line.png]]
+
+2022-08-16 15:17:38 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Page_Dummy_Text/input_Number_idInputWords")): Text of object 'Object Repository/Page_Dummy_Text/input_Number_idInputWords' is cleared
+
+2022-08-16 15:17:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Dummy_Text/input_Number_idInputWords' is cleared
+
+2022-08-16 15:17:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Dummy_Text/input_Number_idInputWords"), lenghText.toString()): Keys '10' sent to object: 'Object Repository/Page_Dummy_Text/input_Number_idInputWords'
+
+2022-08-16 15:17:39 - [MESSAGE][PASSED] - Keys '10' sent to object: 'Object Repository/Page_Dummy_Text/input_Number_idInputWords'
+
+2022-08-16 15:17:39 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("gen_Text", STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-08-16 15:17:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-08-16 15:17:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-gen_Text.png]]
+
+2022-08-16 15:17:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-08-16 15:17:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-16 15:17:30 - [TEST_SUITE][PASSED] - tesst_1: Test Cases/VST_text_recoginzation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

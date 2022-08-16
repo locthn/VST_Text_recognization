@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tesst_1,Chrome 104.0.5112.79,,,2022-08-16 14:32:48,2022-08-16 14:32:58,10.279s,PASSED
+,,,,,,,
+Test Cases/VST_text_recoginzation,Chrome 104.0.5112.79,,,2022-08-16 14:32:48,2022-08-16 14:32:58,9.925s,PASSED
+"openBrowser(""https://www.blindtextgenerator.com/lorem-ipsum"")",Chrome 104.0.5112.79,,,2022-08-16 14:32:48,2022-08-16 14:32:55,6.448s,PASSED
+"takeScreenshotAsCheckpoint(""gen_Text"", STOP_ON_FAILURE)",Chrome 104.0.5112.79,,,2022-08-16 14:32:55,2022-08-16 14:32:56,1.728s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Dummy_Text/input_Number_idInputWords""), """")",Chrome 104.0.5112.79,,,2022-08-16 14:32:56,2022-08-16 14:32:57,0.592s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Dummy_Text/input_Number_idInputWords""), ""100"")",Chrome 104.0.5112.79,,,2022-08-16 14:32:57,2022-08-16 14:32:58,0.538s,PASSED
+closeBrowser(),Chrome 104.0.5112.79,,,2022-08-16 14:32:58,2022-08-16 14:32:58,0.169s,PASSED

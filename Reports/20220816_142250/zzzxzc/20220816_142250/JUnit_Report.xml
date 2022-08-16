@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="zzzxzc" time="24.931" tests="1" failures="0" errors="0">
+   <testsuite name="tesst_1" tests="1" failures="0" errors="0" time="8.122" skipped="0" timestamp="2022-08-16 14:23:03" hostname="loc.tnguyen - 10.10.33.104" id="Test Suites/tesst_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/loc.tnguyen/Desktop/VST_example/VST_Text_recognization/Reports/20220816_142250/tesst_1/20220816_142251"/>
+         <property name="logFiles" value="/Users/loc.tnguyen/Desktop/VST_example/VST_Text_recognization/Reports/20220816_142250/tesst_1/20220816_142251/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-gen_Text.png"/>
+         <property name="hostName" value="loc.tnguyen - 10.10.33.104"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 104.0.5112.79"/>
+         <property name="hostAddress" value="10.10.33.104"/>
+         <property name="sessionId" value="cc8f1c3c9651df01294d56644fdac920"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/VST_text_recoginzation" time="7.808" classname="Test Cases/VST_text_recoginzation" status="PASSED">
+         <system-out><![CDATA[2022-08-16 14:23:03 - [TEST_CASE][PASSED] - Test Cases/VST_text_recoginzation: Test Cases/VST_text_recoginzation
+
+2022-08-16 14:23:03 - [TEST_STEP][PASSED] - openBrowser("https://www.blindtextgenerator.com/lorem-ipsum"): Browser is opened with url: 'https://www.blindtextgenerator.com/lorem-ipsum'
+
+2022-08-16 14:23:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-08-16 14:23:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-08-16 14:23:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.blindtextgenerator.com/lorem-ipsum'
+
+2022-08-16 14:23:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("gen_Text", STOP_ON_FAILURE): Taking screenshot successfully
+
+2022-08-16 14:23:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-08-16 14:23:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-gen_Text.png]]
+
+2022-08-16 14:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dummy_Text/input_Number_idInputWords")): Object: 'Object Repository/Page_Dummy_Text/input_Number_idInputWords' is clicked on
+
+2022-08-16 14:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dummy_Text/input_Number_idInputWords' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-16 14:23:03 - [TEST_SUITE][PASSED] - tesst_1: Test Cases/VST_text_recoginzation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
